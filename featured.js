@@ -21,8 +21,7 @@ ga('set', 'dimension1', 'mediaocean.com' );
           featuredItem = query[1];
         }
       }
-      ga( 
-  
+     
       selectItem = function() {
         if (player.playlist().length > 0 &&
             (featuredItem || player.options()['data-featured-video-id'])) {
