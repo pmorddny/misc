@@ -78,5 +78,5 @@ ga('set', 'dimension1', 'mediaocean.com' );
       }
     }
   
-    videojs.registerPlugin()('featured', featured);
+    videojs.registerPlugin('featured', featured);
   })(window, document, videojs);
