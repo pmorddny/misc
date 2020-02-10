@@ -11,7 +11,11 @@
       var selectItem, selectWhenReady, iterations = 0, loadVideo;
         debugger;
 ga('set', 'dimension1', 'mediaocean.com' );
-  
+        
+     if (settings === void 0) {
+        settings = {};
+      }
+ 
       options = videojs.util.mergeOptions(options,settings);
   
       queries = window.location.search.slice(1).split('&');
