@@ -10,6 +10,7 @@
       var featuredItem, playlist, index, queries, query, i;
       var selectItem, selectWhenReady, iterations = 0, loadVideo;
         debugger;
+ga('set', 'dimension1', 'mediaocean.com' );
   
       options = videojs.util.mergeOptions(options,settings);
   
@@ -20,6 +21,7 @@
           featuredItem = query[1];
         }
       }
+      ga( 
   
       selectItem = function() {
         if (player.playlist().length > 0 &&
