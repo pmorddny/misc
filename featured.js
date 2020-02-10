@@ -9,6 +9,7 @@
       var options = {loadVideoNotInPlaylist:true};
       var featuredItem, playlist, index, queries, query, i;
       var selectItem, selectWhenReady, iterations = 0, loadVideo;
+        debugger;
   
       options = videojs.util.mergeOptions(options,settings);
   
