@@ -8,8 +8,8 @@
         var getDomain;
         
         debugger;
-        if ( HelpCenter !== null ) {
-            window.ga('gaTracker.set', 'dimension1', getDomain( HelpCenter.user.email ) );            
+        if ( window.HelpCenter !== undefined ) {
+            window.ga('gaTracker.set', 'dimension1', getDomain( window.HelpCenter.user.email ) );            
         }
         
         
