@@ -6,13 +6,7 @@
   
     var gacustom = function(settings) {
         var getDomain;
-        
-        debugger;
-        if ( window.HelpCenter !== undefined ) {
-            window.ga('gaTracker.set', 'dimension1', getDomain( window.HelpCenter.user.email ) );            
-        }
-        
-        
+ 
         getDomain = function(email) {
            if ( email === null ) { return ''; }
 
@@ -25,6 +19,12 @@
 
             return '';
         }
+        
+        debugger;
+        if ( window.HelpCenter !== undefined ) {
+            window.ga('gaTracker.set', 'dimension1', getDomain( window.HelpCenter.user.email ) );            
+        }
+ 
     }
   
     videojs.registerPlugin('ga-custom', gacustom );
