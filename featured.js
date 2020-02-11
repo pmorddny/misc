@@ -9,12 +9,6 @@
       var options = {loadVideoNotInPlaylist:true};
       var featuredItem, playlist, index, queries, query, i;
       var selectItem, selectWhenReady, iterations = 0, loadVideo;
-        debugger;
-window.ga('set', 'dimension1', 'mediaocean.com' );
-        
-     if (settings === void 0) {
-        settings = {};
-      }
  
      // options = videojs.util.mergeOptions(options,settings);
   
