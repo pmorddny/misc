@@ -10,7 +10,7 @@
       var featuredItem, playlist, index, queries, query, i;
       var selectItem, selectWhenReady, iterations = 0, loadVideo;
         debugger;
-ga('set', 'dimension1', 'mediaocean.com' );
+window.ga('set', 'dimension1', 'mediaocean.com' );
         
      if (settings === void 0) {
         settings = {};
