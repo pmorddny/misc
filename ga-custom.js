@@ -8,7 +8,7 @@
         var getDomain;
         
         debugger;
-        if ( HelpCenter != null ) {
+        if ( HelpCenter !== null ) {
             window.ga('gaTracker.set', 'dimension1', getDomain( HelpCenter.user.email ) );            
         }
         
