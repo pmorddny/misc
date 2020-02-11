@@ -16,7 +16,7 @@ ga('set', 'dimension1', 'mediaocean.com' );
         settings = {};
       }
  
-      options = videojs.util.mergeOptions(options,settings);
+     // options = videojs.util.mergeOptions(options,settings);
   
       queries = window.location.search.slice(1).split('&');
       for (i = 0; i < queries.length; i++) {
